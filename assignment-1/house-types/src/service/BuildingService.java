@@ -67,6 +67,5 @@ public class BuildingService {
                         && building.getSaloonCount() == saloonCount)
                 .collect(Collectors.toList());
         return filteredBuildings.isEmpty() ? "Filtreye uygun yapi bulunamadi!" : filteredBuildings.toString();
-        //return filteredBuildings;
     }
 }
